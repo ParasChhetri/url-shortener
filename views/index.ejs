@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="display: flex; align-items: center; justify-content: center; flex-direction: column; height: 70vh;">
+        <h1>URL Shortener</h1>
+        <p>Generate your short URL</p>
+        <form action="/shorten" method="post">
+            <label for="longUrl">Enter your long URL:</label>
+            <input type="text" id="longUrl" name="longUrl" required>
+            <button type="submit">Generate</button>
+        </form>
+        <% if(shortUrl) { %>
+            <p>Short URL : <a href="<%= shortUrl %>" target="_blank">
+                    <%= shortUrl %>
+                </a>
+            </p>
+            <%} %>
+    </div>
+</body>
+
+</html>
