@@ -43,5 +43,35 @@ Install all the required Node.js packages using the command below:
 npm install
 ```
 
+---
+
+## 📂 Folder structure
+```
+ url-shortener/
+├── controllers/
+│    └── url.js
+├── models/
+│    └── Url.js
+├── views/
+│    └── index.ejs
+├── .env
+├── .gitignore
+├── README.md
+├── package-lock.json
+├── package.json
+└── server.js 
+```
+
+---
+
+## 🗃️ Create .env file
+```bash
+MONGO_URI=your_mongodb_connection_string
+PORT=your_port
+
+```
+
+
+
 
 
