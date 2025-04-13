@@ -21,7 +21,6 @@ A simple and efficient **URL Shortener** built with Node.js, Express, MongoDB, a
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB with Mongoose
 - **Frontend**: HTML, CSS, EJS
-- **Deployment**: (Add if deployed)
 
 ---
 
@@ -41,6 +40,13 @@ Install all the required Node.js packages using the command below:
 
 ```bash
 npm install
+```
+
+---
+
+## 👍 Start the development server
+```bash
+node --watch server.js
 ```
 
 ---
@@ -70,8 +76,16 @@ MONGO_URI=your_mongodb_connection_string
 PORT=your_port
 
 ```
+---
 
+## 🧪 Usage
 
+1. Enter a long URL in the input field.
+2. Submit to get a shortened version.
+3. Copy the short link.
 
+---
 
+## 🧑‍💻 Author
+Paras Chhetri
 
